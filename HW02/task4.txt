@@ -1,0 +1,4 @@
+When used with #include <> the compiler will look for the dependency in the
+include directory. Additional paths can be provided beforehand.
+The use of #include "" however tells the compiler
+to look in the current directory.

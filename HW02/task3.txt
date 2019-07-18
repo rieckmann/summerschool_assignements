@@ -1,0 +1,13 @@
+When the program starts and the main routine is run,
+at first x is initialized to 4. Then x gets passed to the function A.
+This function increments x by one so x is 5 now. So the first output is:
+  5
+The next call of A does not change x, because it only works on a copy of x.
+In the call of function B the address of x is passed as an argument.
+However this address is then changed to 10, but only in the scope of function B.
+Thus the next output again gives:
+  5
+In function C again the address of x is passed as an argument.
+This time the passed pointer gets dereferenced an thus the value of x gets set
+to 6. So the last output gives:
+  6
