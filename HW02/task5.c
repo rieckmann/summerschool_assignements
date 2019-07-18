@@ -45,4 +45,7 @@ int main(int argc, char *argv[]) {
 
   //output the array
   outputT5(nArray, n+1);
+
+  //free the allocated memory
+  free(nArray);
 }
