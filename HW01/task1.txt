@@ -1,0 +1,30 @@
+For working on these assignements I am using a Windows 10 machine running Debian through the Windows Subsystems for Linux.
+I installed the WSL using this guide: 
+  https://docs.microsoft.com/en-us/windows/wsl/install-win10
+Furthermore I installed Xming for GUI interaction with the Linux OS.
+
+I did not have to install a package manager, since debian is shiped with apt.
+However I used the 
+  $sudo apt-get update && sudo apt-get upgrade 
+  $sudo apt-get install build-essential 
+commands to update the System.
+Having later Assignements in mind I also installed cmake, git and to be sure gdb using:
+  $sudo apt-get install cmake git gdb
+After that I confirmed my gcc, make and cmake installation with  
+  $gcc -v
+  $make -v
+  $cmake --version
+Additionaly I installed the Atom Text Editor using the following commands:
+  $sudo apt-get install apt-transport-https //was not on the system required to download atom
+  $wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+  $sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list' 
+  $sudo apt-get update
+  $sudo apt-get install atom
+To be able to have a graphical interface I used the following hack:
+  $cd usr/share/atom/
+  $sudo cp  /usr/lib/x86_64-linux-gnu/libxcb.so.1 . 
+  $sudo sed -i 's/BIG-REQUESTS/_IG-REQUESTS/' libxcb.so.1           
+Then I edited the .bashrc and added the line:
+  export Display=:0
+Now after starting the debian shell the display gets exported and by running Xming I am able to interact with the GUI.
+That was that for setting up my System up to this point.
