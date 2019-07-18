@@ -3,7 +3,7 @@ To save the file:     Ctrl+O
 To exit the editor:   Ctrl+X
 
 To paste some text:   Ctrl+U (Only copied or cut text from within nano)
-Also to paste from Clipboard one can use the mechanism implemented in whichever bash one is using.
+Also to paste from Clipboard one can use the mechanism implemented in whichever shell one is using.
 In my case this is rightclick.
 To copy a line:       Alt+6
 Search for a word:    Ctrl+W; "Search String"; Enter
