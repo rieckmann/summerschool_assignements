@@ -1,7 +1,7 @@
 CC := gcc
 std := c99
 
-all: task2a task2b
+all: task2a task2b task5
 
 # This time, we use automatic variables in place of filenames.
 # $< refers to the names of any dependencies and $@ refers to the target
