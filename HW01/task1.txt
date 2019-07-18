@@ -10,8 +10,9 @@ However I used the
 commands to update the System.
 Having later Assignements in mind I also installed cmake, git and to be sure gdb using:
   $sudo apt-get install cmake git gdb
-After that I confirmed my gcc, make and cmake installation with  
+After that I confirmed my gcc, git, make and cmake installation with  
   $gcc -v
+  $git --version
   $make -v
   $cmake --version
 Additionaly I installed the Atom Text Editor using the following commands:
@@ -28,3 +29,12 @@ Then I edited the .bashrc and added the line:
   export Display=:0
 Now after starting the debian shell the display gets exported and by running Xming I am able to interact with the GUI.
 That was that for setting up my System up to this point.
+
+Then I went on and opened a repository on github, cloned it to my local machine, where i created some folder structure.
+I then configured my usersettings, added and commited the changes and pushed it back to the github repository:
+  $git  clone https://github.com/rieckmann/summerschool_assignements.git
+  $git add -A
+  $git config --global user.name "rieckmann"
+  $git config --global user.email "fakemail@fake.com"
+  $git commit -a -m "Some commit message"
+  $git push origin master
