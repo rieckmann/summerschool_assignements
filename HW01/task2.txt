@@ -1,0 +1,18 @@
+Path of default login directory:
+  /svr/home/mrieckmann
+
+When I Login bash is running.
+
+Two flags i could pass to the ls command:
+  -a: Show hidden files
+  -R: List the contents of subdirectories, repeat for there subdirectories and so on
+  
+There are 1041 lines in /proc/cpuinfo
+
+Using:
+  $module load gcc
+  $module show
+Reveals that the loaded gcc version is 8.2.0
+However looking through the modules with
+  $module avail  
+One can find, that the latest installed version of gcc is 9.1.0
