@@ -7,3 +7,5 @@ To compile and run you can use:
 If you compile the code without make please make sure to use the c99 standard,
 as the code contains some loops, that won't work in the default euler gcc/latest
 module.
+
+Only the first three assignments are processed in this repository.
