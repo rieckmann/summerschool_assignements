@@ -22,13 +22,13 @@ task5: task5.o output.o
 clean:
 	@rm -f *.o task2a task2b task5
 
-# shortcut for compiling and running task2a, intended for quicker local use
+# shortcut for compiling and running task2a, intended for quicker use
 run_task2a:
 	@make -s task2a
 	@./task2a
 
 # shortcut for running task2b you have to use, same for task5:
-# $ make runb n="insert an integer here"
+# $ make run_task2b n="insert an integer here"
 run_task2b:
 	@make -s task2b
 	@./task2b $(n)
