@@ -1,0 +1,20 @@
+a)
+What is the size of variable p on Euler?
+8 Byte
+b)
+What is the address of p ?
+0x7ffffffee308
+c)
+What is the address of c ?
+0x7ffffffee307
+d)
+What is the value of arr[0] after the assignment on line 16?
+266
+e)
+What is the value of arr[0] at the end of the program?
+266
+f)
+Explain why the value of arr[0] changes
+Because arr[0] stores an int with size 4 Bytes, lets mark them x x x x
+Now we take p which points to arr[0] as a char (size 1 Byte) pointer
+and change its second value. What we get for arr[0] is thus x c x x 

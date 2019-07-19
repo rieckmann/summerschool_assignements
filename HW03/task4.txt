@@ -1,0 +1,39 @@
+1)
+Unit Testing
+In Unit Testing single modules of code get tested.
+For example a single function, to determine if it is working correctly.
+2)
+Integration Testing
+Integration Testing is the next step after Unit Testing, to determine if
+multiple modules or parts of code work correctly together.
+3)
+Functional Testing
+In Functional Testing it is determined, whether a whole part of a program
+fulfills is function.
+4)
+End-to-end Testing
+End-to-end Testing takes place to ensure the software as a whole fulfills its
+function, in a way from start to end.
+5)
+Performance Testing
+Performance Testing as the name suggests tests the performance of the software.
+This includes stability, reliability and scalability of the software.
+6)
+Usability Testing
+This is pretty self-explanatory as it tests the usability of a system
+for its potential users.
+7)
+Acceptance Testing
+This test ensures the requirements of the software
+i.e. as specified in a contract are met.
+8)
+Beta Testing
+Beta Testing describes the process to test the software in a
+live deployment situation, where it is used by end-users.
+
+9) Validation Testing
+In a sense this is equivalent to Acceptance Testing but from a
+software development viewpoint. Acceptance Testing is to ensure the end-user
+requirements are met, while Validation Testing asks from the development
+viewpoint, whether we are developing the right product to meet these
+requirements.

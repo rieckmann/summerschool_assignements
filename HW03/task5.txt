@@ -1,0 +1,4 @@
+In T2 we use the cache more efficiently.
+
+The values might be different,
+because the matrix A is filled with random doubles.
